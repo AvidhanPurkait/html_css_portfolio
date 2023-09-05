@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    /*background-color: rgb(165, 255, 247);*/
+    background-image: url(https://images.unsplash.com/photo-1692982396602-0ddf793b3518?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat ;
+}
+
+img{
+    margin-top: 10px;
+}
+
+hr{
+    margin: 10px;
+}
+
+h1{
+    font-size: 40px;
+}
+
+p{
+    font-size: 20px;
+}
+
+#Details{
+    display: flex;
+    justify-content: space-between;
+}
+
+#Education{
+    font-size: 25px;
+    margin-left: 150px;
+}
+
+#Hobbies{
+    font-size: 25px;
+    margin-right: 220px;
+}
+
+#Link{
+    font-size: 40px;
+    margin-top: 23%;
+    margin-right: 7%;
+}
